@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Padding and Margin</title>
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    
+    <main> 
+      
+      <header>
+        <h1>Technical Blog</h1>
+        <h2>What is the difrence between padding, margin and border</h2>
+            
+
+        <p>
+          Margin is how much space is around an object.
+
+          Padding is how much space is within an object sides and it’s contents.
+          
+          Border is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s zero.
+          
+          The place where it all matters is defining width. Say you have a shoe box that is 12 inches long and six inches wide. No lid and you’re looking down into the box. Imagine the paper stuffing around the shoe. The shoe is the content, the paper is the padding and the box edge is the border. We’ll say the border is 1 inch so we can see the actual edge. Now place another box next to it, six inches away. That is the margin…the space between the two boxes. Still looking down on now two boxes, in CSS if you want to draw a container around both of those boxes, the width of that new container would be the:
+          
+          Width of the box 1: 6 inches+ width of box 2: 6 inches + the margin between them: 6 inches plus, border of box1: 1 inch on each side so 2 inches + another 2 inches for the border on box 2. Your width for the container wrapped around both shoe boxes would be:
+          
+          6 + 6 + 6 + 2 + 2 =22 inches wide
+        </p>
+        <img src="/box_model.png" alt="HTML & CSS Box model">
+      </header>
+    
+      <footer>
+        <h2>Let's Keep in Touch!</h2>
+
+        <ul>
+          <li><a href="https://github.com/Jacobsengel" target="_blank">Jacob on Github</a></li>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+          <a href="index.html" target="Back to home page">Back to home page</a>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
