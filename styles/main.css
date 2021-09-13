@@ -2,4 +2,114 @@ body {
     background-color: rgb(10, 30, 97);
     color: #f557e8;  
     font-size: 400px;
+
+/* COLOURS
+--brown: #795019ff;
+--eerie-black: #1B2023ff;
+--deep-jungle-green: #004849ff;
+--caput-mortuum: #582521ff;
+--kobe: #803818ff;
+--alabaster: #E4E4D7ff;
+*/
+
+/* GLOBAL STYLES
+-----------------------------------------*/
+body {
+    color: blanchedalmond;
+    background-color: #803818ff;
+    text-align: center;
+    background-image: url(../images-folder/insense.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #00000029;
+    width: 60%;
+}
+
+h1 {
+    
+    
+    font-size: 40px;
+}
+
+.page_wrapper {
+
+    padding: 85px;
+}
+
+
+/* ABOUT
+-----------------------------------------*/
+
+
+header {
+    background-color: #1B2023ff;
+    color: blanchedalmond;
+    text-align:center;
+    padding: 50px;
+    bottom: 0;
+    min-width:10ovw;
+}
+
+/* BLOG
+-----------------------------------------*/
+.blog {
+    padding: 1px;
+    text-align: center;
+    color:blanchedalmond;
+    border-radius: 10px;
+}
+
+/* LEARNING PLAN
+-----------------------------------------*/
+.learning_plan {
+    padding: 10px;
+    margin: 50px;
+}
+
+/* CONTACT INFO
+-----------------------------------------*/
+footer {
+    background-color: #1B2023ff;
+    color: blanchedalmond;
+    padding: 40px;
+    font-size: 20px;
+    
+    /* add box shadow */
+    box-shadow: inset 5px 40px 99px #00000029;
+}
+
+/* LINKS FORMAT
+------------------------------------------*/
+/* unvisited link */
+a:link {
+    color:blanchedalmond;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blanchedalmond;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:lightcoral;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
