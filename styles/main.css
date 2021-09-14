@@ -23,7 +23,7 @@ body {
 }
 
 img {
-    width: 200px;
+    width: 160px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #00000029;
     width: 60%;
@@ -61,6 +61,7 @@ header {
     padding: 10px;
     margin: 15px;
 }
+
 
 /* identity
 -----------------------------------------*/
